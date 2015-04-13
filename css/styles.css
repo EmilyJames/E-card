@@ -1,0 +1,44 @@
+/* 
+
+Stylesheet for Group ECard:
+
+*/ 
+
+body {
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+#card { 
+	position: relative; 
+	height: 576px; 
+	width: 816px; 
+	border: 1px solid black; 
+}
+
+.front { height: 576px; }
+
+.slider-wrapper { height: 576px; }
+
+#slider { height: 576px; }
+
+.back { 
+	height: 576px;
+	width: 816px; 
+	background-color: #f3eee7; 
+	font-size: 25px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.left {
+	width: 57%;
+	float: left;
+}
+
+.right {
+	padding-left: 40px;
+	font-size: 35px;
+	width: 32%;
+	float: left;
+	text-decoration: underline;
+}
